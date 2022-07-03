@@ -113,6 +113,7 @@ address {
 .nav-list {
     display: flex;
     align-items: center;
+
 }
 
 .nav-list-link,
@@ -128,7 +129,7 @@ address {
 }
 
 .nav-list-item:not(:last-child),
-.contact-item {
+.contact-item:not(:last-child) {
     margin-right: 50px;
 }
 
