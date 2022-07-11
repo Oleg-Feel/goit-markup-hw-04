@@ -142,7 +142,7 @@ address {
 
 .contact-list-icon {
     margin-right: 10px;
-
+    fill: var(--secondary-text-color)
 }
 
 .contact:focus .contact-list-icon,
@@ -170,6 +170,8 @@ address {
     background-size: cover;
     padding-top: 200px;
     padding-bottom: 200px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -533,8 +535,12 @@ address {
 
 }
 
-.portfolio-list-item:hover,
-.portfolio-list-item:focus {
+.portfolio-list-link {
+    display: block;
+}
+
+.portfolio-list-link:hover,
+.portfolio-list-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
